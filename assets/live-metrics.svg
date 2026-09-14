@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+<title id="title">GARHY TECH Public GitHub Metrics</title>
+<desc id="desc">Initial metrics panel. It will be updated automatically by GitHub Actions.</desc>
+<rect width="1200" height="250" rx="18" fill="#070b10"/>
+<rect x="1" y="1" width="1198" height="248" rx="17" fill="none" stroke="#153641"/>
+<text x="40" y="52" fill="#72f4ff" font-family="monospace" font-size="17" letter-spacing="2">PUBLIC GITHUB SIGNAL // INITIALIZING</text>
+<text x="40" y="104" fill="#ffffff" font-family="Arial, sans-serif" font-size="25" font-weight="700">Metrics activate after the first workflow run.</text>
+<text x="40" y="145" fill="#94a3b8" font-family="monospace" font-size="15">Source: public GitHub API</text>
+<text x="40" y="184" fill="#64748b" font-family="monospace" font-size="14">Generated automatically by this repository</text>
+<circle cx="1135" cy="50" r="7" fill="#22c55e"/>
+</svg>
