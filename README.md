@@ -74,7 +74,17 @@ DISCOVER -> DIAGNOSE -> DESIGN -> BUILD -> TEST -> DEPLOY -> VERIFY -> AUTOMATE
 
 ---
 
-## `05 // CONTRIBUTION ACTIVITY`
+## `05 // CONTRIBUTION SNAKE`
+
+<div align="center">
+  <img src="./assets/github-contribution-grid-snake.svg" alt="GARHY TECH animated GitHub contribution snake" width="100%" />
+</div>
+
+The contribution snake is generated from this account's actual GitHub contribution graph and refreshed automatically by GitHub Actions.
+
+---
+
+## `06 // CONTRIBUTION ACTIVITY`
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Garhy-tech&bg_color=00000000&color=94a3b8&line=00e5ff&point=72f4ff&area=true&hide_border=true" alt="GARHY TECH contribution activity graph" width="100%" />
@@ -82,14 +92,14 @@ DISCOVER -> DIAGNOSE -> DESIGN -> BUILD -> TEST -> DEPLOY -> VERIFY -> AUTOMATE
 
 ---
 
-## `06 // SELECTED PUBLIC WORK`
+## `07 // SELECTED PUBLIC WORK`
 
 ### [GARHY AI / HANA](https://github.com/Garhy-tech/garhy-gpt-oss-cloud)
 Public source repository for GARHY AI / HANA.
 
 ---
 
-## `07 // OPERATING PRINCIPLES`
+## `08 // OPERATING PRINCIPLES`
 
 ```text
 01  Architecture before coupling.
