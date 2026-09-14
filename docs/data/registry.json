@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "scope": "public-engineering-surface",
+  "systems": [
+    {
+      "id": "corporate",
+      "name": "GARHY TECH",
+      "role": "Corporate Surface",
+      "url": "https://garhy.tech",
+      "provider": "Vercel",
+      "visibility": "public",
+      "probe": true,
+      "detail": "Primary GARHY TECH public surface."
+    },
+    {
+      "id": "hana",
+      "name": "GARHY AI / HANA",
+      "role": "AI Product",
+      "url": "https://hana-ai-pro.vercel.app",
+      "provider": "Vercel",
+      "visibility": "public",
+      "probe": true,
+      "github": "https://github.com/Garhy-tech/garhy-gpt-oss-cloud",
+      "detail": "Public AI and automation product surface."
+    },
+    {
+      "id": "store",
+      "name": "GARHY Store",
+      "role": "Commerce",
+      "url": "https://store.garhy.tech",
+      "provider": "Vercel",
+      "visibility": "public",
+      "probe": true,
+      "detail": "Commerce and marketplace surface."
+    },
+    {
+      "id": "api",
+      "name": "GARHY API",
+      "role": "Platform API",
+      "url": "https://api.garhy.tech",
+      "provider": "Vercel",
+      "visibility": "public",
+      "probe": true,
+      "detail": "Public platform API edge. Reachability does not imply endpoint authorization."
+    },
+    {
+      "id": "identity",
+      "name": "GARHY ID",
+      "role": "Identity",
+      "url": "https://id.garhy.tech",
+      "provider": "Vercel",
+      "visibility": "public",
+      "probe": true,
+      "detail": "Identity and authentication surface."
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "role": "Engineering Signal",
+      "url": "https://github.com/Garhy-tech",
+      "provider": "GitHub",
+      "visibility": "public",
+      "probe": false,
+      "detail": "Public engineering profile, source signals and contribution activity."
+    }
+  ]
+}
