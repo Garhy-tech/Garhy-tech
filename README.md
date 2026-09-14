@@ -10,7 +10,19 @@
 
 `PERFORMANCE` · `SCALABILITY` · `MAINTAINABILITY` · `RELIABILITY`
 
-[Website](https://garhy.tech) · [GARHY AI / HANA](https://github.com/Garhy-tech/garhy-gpt-oss-cloud) · [GitHub](https://github.com/Garhy-tech)
+[Launch Command Center](https://garhy-tech.github.io/Garhy-tech/) · [Website](https://garhy.tech) · [GARHY AI / HANA](https://github.com/Garhy-tech/garhy-gpt-oss-cloud) · [GitHub](https://github.com/Garhy-tech)
+
+</div>
+
+---
+
+## `00 // LIVE COMMAND CENTER`
+
+<div align="center">
+
+### [OPEN GARHY TECH ENGINEERING COMMAND CENTER](https://garhy-tech.github.io/Garhy-tech/)
+
+Interactive engineering surface with system status, architecture, technology stack and terminal commands.
 
 </div>
 
@@ -94,6 +106,6 @@ Public source repository for GARHY AI / HANA.
 
 ### `GARHY TECH // BUILD • VERIFY • AUTOMATE • SCALE`
 
-[garhy.tech](https://garhy.tech) · [GitHub](https://github.com/Garhy-tech)
+[Command Center](https://garhy-tech.github.io/Garhy-tech/) · [garhy.tech](https://garhy.tech) · [GitHub](https://github.com/Garhy-tech)
 
 </div>
