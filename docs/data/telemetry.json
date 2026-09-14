@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-09-14T22:57:00+03:00",
+  "source": "Vercel production deployment metadata and aggregated runtime signals",
+  "systems": {
+    "corporate": {
+      "deployment": "READY",
+      "runtimeSignal": "no-error-signal",
+      "target": "production"
+    },
+    "hana": {
+      "deployment": "READY",
+      "runtimeSignal": "warning-observed",
+      "target": "production",
+      "note": "Current production deployment is READY. A Node URL API deprecation warning was observed in the preceding 24-hour runtime window."
+    },
+    "store": {
+      "deployment": "READY",
+      "runtimeSignal": "healthy-traffic",
+      "target": "production"
+    },
+    "bybit": {
+      "deployment": "READY",
+      "runtimeSignal": "no-error-signal",
+      "target": "production"
+    },
+    "api": {
+      "deployment": "READY",
+      "runtimeSignal": "authenticated-edge",
+      "target": "production",
+      "note": "Observed authorization responses are compatible with a protected API edge and are not classified as deployment failure."
+    },
+    "identity": {
+      "deployment": "READY",
+      "runtimeSignal": "no-error-signal",
+      "target": "production"
+    }
+  }
+}
