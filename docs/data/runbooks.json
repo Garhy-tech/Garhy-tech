@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "runbooks": [
+    {
+      "id": "public-edge-unreachable",
+      "trigger": "public reachability transitions from reachable to unavailable",
+      "mode": "advisory-only",
+      "steps": [
+        "Confirm deployment state from the hosting control plane.",
+        "Check runtime error clusters and recent deployment changes.",
+        "Check DNS and edge availability.",
+        "Identify the most recent verified healthy deployment.",
+        "Require private operator approval before rollback or mutation.",
+        "Verify recovery after any approved action."
+      ]
+    },
+    {
+      "id": "runtime-warning",
+      "trigger": "new runtime warning or elevated error signal",
+      "mode": "advisory-only",
+      "steps": [
+        "Correlate warning timestamp with deploy history.",
+        "Inspect affected route and dependency boundary.",
+        "Classify as informational, elevated, or production-impacting.",
+        "Create remediation only when evidence supports a concrete defect.",
+        "Verify with targeted tests before release."
+      ]
+    },
+    {
+      "id": "high-change-risk",
+      "trigger": "change risk score is high or critical",
+      "mode": "advisory-only",
+      "steps": [
+        "Require review of sensitive paths and migration impact.",
+        "Require successful targeted tests for touched critical paths.",
+        "Confirm rollback path before production promotion.",
+        "Prefer staged deployment for high-risk changes.",
+        "Verify production health after release."
+      ]
+    }
+  ]
+}
