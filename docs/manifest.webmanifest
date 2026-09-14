@@ -1,0 +1,11 @@
+{
+  "name": "GARHY TECH Mission Control",
+  "short_name": "GARHY Mission",
+  "description": "Public engineering telemetry, system registry, architecture and GitHub activity for GARHY TECH.",
+  "start_url": "/Garhy-tech/",
+  "scope": "/Garhy-tech/",
+  "display": "standalone",
+  "background_color": "#05080c",
+  "theme_color": "#05080c",
+  "icons": []
+}
