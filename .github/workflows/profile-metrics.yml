@@ -1,0 +1,43 @@
+name: Refresh Profile Metrics
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate-metrics.mjs'
+      - '.github/workflows/profile-metrics.yml'
+  schedule:
+    - cron: '17 */6 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate metrics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-metrics.mjs
+
+      - name: Commit generated metrics
+        run: |
+          if git diff --quiet -- assets/live-metrics.svg; then
+            echo "No metrics change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/live-metrics.svg
+          git commit -m "chore(profile): refresh public metrics"
+          git push
