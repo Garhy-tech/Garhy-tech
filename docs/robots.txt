@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://garhy-tech.github.io/Garhy-tech/sitemap.xml
