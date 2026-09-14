@@ -1,11 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
-<title id="title">GARHY TECH Public GitHub Metrics</title>
-<desc id="desc">Initial metrics panel. It will be updated automatically by GitHub Actions.</desc>
-<rect width="1200" height="250" rx="18" fill="#070b10"/>
-<rect x="1" y="1" width="1198" height="248" rx="17" fill="none" stroke="#153641"/>
-<text x="40" y="52" fill="#72f4ff" font-family="monospace" font-size="17" letter-spacing="2">PUBLIC GITHUB SIGNAL // INITIALIZING</text>
-<text x="40" y="104" fill="#ffffff" font-family="Arial, sans-serif" font-size="25" font-weight="700">Metrics activate after the first workflow run.</text>
-<text x="40" y="145" fill="#94a3b8" font-family="monospace" font-size="15">Source: public GitHub API</text>
-<text x="40" y="184" fill="#64748b" font-family="monospace" font-size="14">Generated automatically by this repository</text>
-<circle cx="1135" cy="50" r="7" fill="#22c55e"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+<title id="title">GARHY TECH public GitHub metrics</title>
+<desc id="desc">Automatically generated from the public GitHub API.</desc>
+<rect width="1200" height="260" rx="18" fill="#070b10"/>
+<rect x="1" y="1" width="1198" height="258" rx="17" fill="none" stroke="#153641"/>
+<text x="40" y="48" fill="#72f4ff" font-family="monospace" font-size="17" letter-spacing="2">PUBLIC GITHUB SIGNAL // LIVE</text>
+<circle cx="1135" cy="43" r="7" fill="#22c55e"/>
+<g font-family="Arial, Helvetica, sans-serif">
+  <text x="42" y="106" fill="#ffffff" font-size="39" font-weight="700">1</text>
+  <text x="42" y="134" fill="#94a3b8" font-size="14">PUBLIC REPOS</text>
+  <text x="270" y="106" fill="#ffffff" font-size="39" font-weight="700">0</text>
+  <text x="270" y="134" fill="#94a3b8" font-size="14">STARS</text>
+  <text x="470" y="106" fill="#ffffff" font-size="39" font-weight="700">0</text>
+  <text x="470" y="134" fill="#94a3b8" font-size="14">FORKS</text>
+</g>
+<text x="42" y="192" fill="#94a3b8" font-family="monospace" font-size="14">LATEST PUBLIC UPDATE</text>
+<text x="42" y="221" fill="#e2e8f0" font-family="monospace" font-size="17">garhy-gpt-oss-cloud • 2026-09-14</text>
+<text x="1120" y="222" text-anchor="end" fill="#64748b" font-family="monospace" font-size="12">AUTO-GENERATED</text>
 </svg>
