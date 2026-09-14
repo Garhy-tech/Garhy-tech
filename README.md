@@ -2,80 +2,97 @@
 
 <img src="./assets/command-center.svg" alt="GARHY TECH Command Center" width="100%" />
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=700&color=00E5FF&center=true&vCenter=true&width=900&lines=GARHY+TECH+%2F%2F+ENGINEERING+COMMAND+CENTER;SOFTWARE+%E2%80%A2+AI+%E2%80%A2+AUTOMATION+%E2%80%A2+CLOUD+%E2%80%A2+DEVOPS;BUILD+%E2%80%A2+VERIFY+%E2%80%A2+AUTOMATE+%E2%80%A2+SCALE" alt="GARHY TECH animated header" />
+
 # GARHY TECH
 
-**Founder-led engineering for production-grade software, AI, automation, cloud infrastructure, APIs, security, and DevOps.**
+**Software Engineering · AI · Automation · Cloud · APIs · Security · DevOps**
 
-`SECURITY-FIRST` · `PERFORMANCE` · `SCALABILITY` · `MAINTAINABILITY`
+`PERFORMANCE` · `SCALABILITY` · `MAINTAINABILITY` · `RELIABILITY`
 
-[Website](https://garhy.tech) · [GARHY AI / HANA](https://github.com/Garhy-tech/garhy-gpt-oss-cloud)
+[Website](https://garhy.tech) · [GARHY AI / HANA](https://github.com/Garhy-tech/garhy-gpt-oss-cloud) · [GitHub](https://github.com/Garhy-tech)
 
 </div>
 
 ---
 
-## `01 // EXECUTIVE ENGINEERING SYSTEM`
-
-GARHY TECH builds and operates software products with an execution model centered on **architecture, automation, security, observability, deployment reliability, and measurable production quality**.
+## `01 // ENGINEERING SYSTEM`
 
 ```text
-DISCOVER -> DIAGNOSE -> DESIGN -> BUILD -> SECURE -> TEST -> DEPLOY -> VERIFY -> HARDEN -> AUTOMATE
+DISCOVER -> DIAGNOSE -> DESIGN -> BUILD -> TEST -> DEPLOY -> VERIFY -> AUTOMATE
 ```
 
-### Core engineering domains
-
-| Domain | Focus |
+| Layer | Focus |
 |---|---|
-| **Software Engineering** | Full-stack systems, product architecture, maintainable codebases |
-| **AI & Automation** | AI-enabled workflows, agents, orchestration, operational automation |
-| **Cloud & DevOps** | CI/CD, deployment pipelines, infrastructure, observability |
-| **APIs & Databases** | Secure interfaces, data modeling, integration architecture |
-| **Cybersecurity** | Least privilege, secret hygiene, secure defaults, hardening |
-| **Performance** | Fast delivery paths, efficient runtimes, production optimization |
+| Experience | Web · Mobile · AI |
+| Product Systems | AI · Platform · Commerce |
+| Shared Capabilities | Auth · APIs · Data · Automation |
+| Delivery | Cloud · Edge · CI/CD |
+| Quality Plane | Observability · Performance · Reliability · Governance |
 
 ---
 
-## `02 // ACTIVE TECHNOLOGY SURFACE`
+## `02 // GARHY ECOSYSTEM`
+
+| System | Public signal | Role |
+|---|---|---|
+| **GARHY AI / HANA** | [Public repository](https://github.com/Garhy-tech/garhy-gpt-oss-cloud) | AI and automation |
+| **Platform Systems** | Private | Shared platform capabilities |
+| **Commerce Systems** | Private | Marketplace and transactions |
+| **Profile Automation** | Active | Public metrics refresh |
+
+---
+
+## `03 // ACTIVE TECHNOLOGY SURFACE`
 
 `TypeScript` · `JavaScript` · `React` · `Next.js` · `Node.js` · `Python` · `Supabase` · `PostgreSQL` · `AWS` · `Cloudflare` · `Vercel` · `Docker` · `GitHub Actions` · `Linux`
 
 ---
 
-## `03 // PUBLIC SIGNAL`
-
-The panel below is generated from the **public GitHub API** by this repository's own GitHub Actions workflow.
+## `04 // LIVE GITHUB SIGNAL`
 
 <div align="center">
   <img src="./assets/live-metrics.svg" alt="GARHY TECH live public GitHub metrics" width="100%" />
 </div>
 
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Garhy-tech&show_icons=true&hide_border=true&bg_color=00000000&title_color=00e5ff&text_color=cbd5e1&icon_color=72f4ff&include_all_commits=true&rank_icon=github" alt="GARHY TECH GitHub stats" />
+  <img height="165" src="https://streak-stats.demolab.com?user=Garhy-tech&hide_border=true&background=00000000&ring=00E5FF&fire=72F4FF&currStreakLabel=72F4FF&sideNums=CBD5E1&currStreakNum=FFFFFF&sideLabels=94A3B8&dates=64748B" alt="GARHY TECH GitHub streak" />
+</div>
+
 ---
 
-## `04 // SELECTED PUBLIC WORK`
+## `05 // CONTRIBUTION ACTIVITY`
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Garhy-tech&bg_color=00000000&color=94a3b8&line=00e5ff&point=72f4ff&area=true&hide_border=true" alt="GARHY TECH contribution activity graph" width="100%" />
+</div>
+
+---
+
+## `06 // SELECTED PUBLIC WORK`
 
 ### [GARHY AI / HANA](https://github.com/Garhy-tech/garhy-gpt-oss-cloud)
-Canonical public source for GARHY AI / HANA and its production-facing engineering path.
-
-> Additional product and infrastructure repositories may remain private by design. Public GitHub is treated as an engineering signal, not as a mirror of internal production systems.
+Public source repository for GARHY AI / HANA.
 
 ---
 
-## `05 // OPERATING PRINCIPLES`
+## `07 // OPERATING PRINCIPLES`
 
 ```text
-01  Ship production outcomes, not demos.
-02  Automate repeatable operational work.
-03  Treat security as an architecture constraint, not a final checklist.
-04  Measure before optimizing; verify after changing.
-05  Prefer explicit ownership, observability, rollback paths, and clean interfaces.
-06  Keep systems scalable without sacrificing maintainability.
+01  Architecture before coupling.
+02  Automate repeatable work.
+03  Measure, change, verify.
+04  Keep interfaces explicit.
+05  Build for reliability and maintainability.
+06  Scale only with observable behavior.
 ```
 
 ---
 
 <div align="center">
 
-### `GARHY TECH // BUILD • SECURE • AUTOMATE • SCALE`
+### `GARHY TECH // BUILD • VERIFY • AUTOMATE • SCALE`
 
 [garhy.tech](https://garhy.tech) · [GitHub](https://github.com/Garhy-tech)
 
