@@ -1,0 +1,45 @@
+name: Mission Control Observer
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/refresh-mission-control.mjs'
+      - '.github/workflows/mission-control-observer.yml'
+  schedule:
+    - cron: '7 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mission-control-observer
+  cancel-in-progress: true
+
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: true
+
+      - name: Refresh public engineering intelligence
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/refresh-mission-control.mjs
+
+      - name: Commit observer state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/history.json docs/data/incidents.json docs/data/observer.json docs/data/forecast.json docs/data/change-intelligence.json
+          if git diff --cached --quiet; then
+            echo "No observer state change."
+            exit 0
+          fi
+          git commit -m "chore(mission-control): refresh public engineering intelligence"
+          git push
