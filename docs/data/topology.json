@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "GARHY TECH Mission Control",
+  "nodes": [
+    {"id":"experience","label":"Experience","type":"plane"},
+    {"id":"platform","label":"Platform","type":"plane"},
+    {"id":"delivery","label":"Delivery","type":"plane"},
+    {"id":"corporate","label":"GARHY TECH","type":"system"},
+    {"id":"hana","label":"GARHY AI / HANA","type":"system"},
+    {"id":"store","label":"GARHY Store","type":"system"},
+    {"id":"bybit","label":"GT.BYBIT","type":"system"},
+    {"id":"identity","label":"GARHY ID","type":"system"},
+    {"id":"api","label":"GARHY API","type":"system"},
+    {"id":"github","label":"GitHub","type":"provider"},
+    {"id":"vercel","label":"Vercel","type":"provider"}
+  ],
+  "edges": [
+    {"from":"corporate","to":"experience","relation":"serves"},
+    {"from":"hana","to":"experience","relation":"serves"},
+    {"from":"store","to":"experience","relation":"serves"},
+    {"from":"bybit","to":"experience","relation":"serves"},
+    {"from":"experience","to":"platform","relation":"depends-on"},
+    {"from":"identity","to":"platform","relation":"provides"},
+    {"from":"api","to":"platform","relation":"provides"},
+    {"from":"platform","to":"delivery","relation":"delivered-by"},
+    {"from":"github","to":"delivery","relation":"source-and-ci"},
+    {"from":"vercel","to":"delivery","relation":"production-host"}
+  ]
+}
