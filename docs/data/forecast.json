@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": null,
+  "method": "bounded moving-window trend analysis over public reachability latency",
+  "note": "Forecasts are advisory signals, not outage predictions or guarantees.",
+  "systems": {}
+}
