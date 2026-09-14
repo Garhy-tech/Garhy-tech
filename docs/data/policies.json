@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "mode": "advisory-only",
+  "principles": [
+    "No production mutation from the public Mission Control client.",
+    "No secrets, privileged identifiers, or private repository names are exposed to the browser.",
+    "Automated remediation requires an explicitly approved private operator plane.",
+    "Database, financial, identity, and destructive actions always require explicit human approval.",
+    "All future autonomous actions must be bounded, auditable, reversible, and verified after execution."
+  ],
+  "actionClasses": {
+    "read-only": {"publicAllowed": true, "approval": "none"},
+    "safe-remediation": {"publicAllowed": false, "approval": "policy-and-private-operator"},
+    "state-changing": {"publicAllowed": false, "approval": "explicit-human"},
+    "destructive-or-financial": {"publicAllowed": false, "approval": "explicit-human-plus-step-up-auth"}
+  }
+}
