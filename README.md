@@ -2,7 +2,7 @@
 
 <img src="./assets/command-center.svg" alt="GARHY TECH Command Center" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=700&color=00E5FF&center=true&vCenter=true&width=900&lines=GARHY+TECH+%2F%2F+ENGINEERING+COMMAND+CENTER;SOFTWARE+%E2%80%A2+AI+%E2%80%A2+AUTOMATION+%E2%80%A2+CLOUD+%E2%80%A2+DEVOPS;BUILD+%E2%80%A2+VERIFY+%E2%80%A2+AUTOMATE+%E2%80%A2+SCALE" alt="GARHY TECH animated header" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=700&color=00E5FF&center=true&vCenter=true&width=900&lines=GARHY+TECH+%2F%2F+MISSION+CONTROL;SOFTWARE+%E2%80%A2+AI+%E2%80%A2+AUTOMATION+%E2%80%A2+CLOUD+%E2%80%A2+DEVOPS;OBSERVE+%E2%80%A2+VERIFY+%E2%80%A2+OPERATE+%E2%80%A2+SCALE" alt="GARHY TECH animated header" />
 
 # GARHY TECH
 
@@ -10,19 +10,19 @@
 
 `PERFORMANCE` · `SCALABILITY` · `MAINTAINABILITY` · `RELIABILITY`
 
-[Launch Command Center](https://garhy-tech.github.io/Garhy-tech/) · [Website](https://garhy.tech) · [GARHY AI / HANA](https://github.com/Garhy-tech/garhy-gpt-oss-cloud) · [GitHub](https://github.com/Garhy-tech)
+[Launch Mission Control](https://garhy-tech.github.io/Garhy-tech/) · [Website](https://garhy.tech) · [GARHY AI / HANA](https://github.com/Garhy-tech/garhy-gpt-oss-cloud) · [GitHub](https://github.com/Garhy-tech)
 
 </div>
 
 ---
 
-## `00 // LIVE COMMAND CENTER`
+## `00 // LIVE MISSION CONTROL`
 
 <div align="center">
 
-### [OPEN GARHY TECH ENGINEERING COMMAND CENTER](https://garhy-tech.github.io/Garhy-tech/)
+### [OPEN GARHY TECH MISSION CONTROL](https://garhy-tech.github.io/Garhy-tech/)
 
-Interactive engineering surface with system status, architecture, technology stack and terminal commands.
+Public engineering radar with product registry, safe reachability telemetry, architecture context, contribution activity and a functional command console.
 
 </div>
 
@@ -49,9 +49,11 @@ DISCOVER -> DIAGNOSE -> DESIGN -> BUILD -> TEST -> DEPLOY -> VERIFY -> AUTOMATE
 | System | Public signal | Role |
 |---|---|---|
 | **GARHY AI / HANA** | [Public repository](https://github.com/Garhy-tech/garhy-gpt-oss-cloud) | AI and automation |
-| **Platform Systems** | Private | Shared platform capabilities |
-| **Commerce Systems** | Private | Marketplace and transactions |
-| **Profile Automation** | Active | Public metrics refresh |
+| **GARHY TECH** | [garhy.tech](https://garhy.tech) | Corporate surface |
+| **GARHY Store** | [store.garhy.tech](https://store.garhy.tech) | Commerce |
+| **GARHY API** | [api.garhy.tech](https://api.garhy.tech) | Platform API |
+| **GARHY ID** | [id.garhy.tech](https://id.garhy.tech) | Identity |
+| **Profile Automation** | Active | Public metrics and contribution refresh |
 
 ---
 
@@ -114,8 +116,8 @@ Public source repository for GARHY AI / HANA.
 
 <div align="center">
 
-### `GARHY TECH // BUILD • VERIFY • AUTOMATE • SCALE`
+### `GARHY TECH // OBSERVE • VERIFY • OPERATE • SCALE`
 
-[Command Center](https://garhy-tech.github.io/Garhy-tech/) · [garhy.tech](https://garhy.tech) · [GitHub](https://github.com/Garhy-tech)
+[Mission Control](https://garhy-tech.github.io/Garhy-tech/) · [garhy.tech](https://garhy.tech) · [GitHub](https://github.com/Garhy-tech)
 
 </div>
