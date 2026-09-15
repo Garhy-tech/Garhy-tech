@@ -28,9 +28,18 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Checkout
-        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
-      - name: Validate public Engineering OS
+      - name: Checkout repository without external actions
+        shell: bash
         run: |
+          set -euo pipefail
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "${GITHUB_SHA}"
+          git checkout --detach FETCH_HEAD
+
+      - name: Validate public Engineering OS
+        shell: bash
+        run: |
+          set -euo pipefail
           node --version
           node scripts/validate-profile.mjs
