@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "mode": "public-safe",
+  "description": "Normalized public observability contract for GARHY Engineering OS. Current public inputs are deployment snapshots and synthetic reachability probes; richer OpenTelemetry metrics, logs and traces can be ingested later without changing the UI contract.",
+  "signals": {
+    "metrics": ["availability", "latency_p50_ms", "latency_p95_ms", "error_budget_remaining_pct", "burn_rate"],
+    "events": ["deployment", "incident_opened", "incident_resolved", "change_risk"],
+    "logs": {"public": false, "reason": "Runtime logs can contain sensitive operational context and remain private."},
+    "traces": {"public": false, "reason": "Distributed traces remain in the private operator plane."}
+  },
+  "futureIngestion": {
+    "standard": "OpenTelemetry",
+    "accepted": ["OTLP metrics", "OTLP traces", "structured deployment events"],
+    "boundary": "Only aggregated, explicitly public-safe telemetry may be materialized into GitHub Pages data files."
+  }
+}
