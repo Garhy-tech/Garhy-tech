@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "windowSamples": 168,
+  "defaultObjectivePct": 99.5,
+  "services": {
+    "corporate": {"availabilityObjectivePct": 99.5, "latencyP95TargetMs": 1200},
+    "hana": {"availabilityObjectivePct": 99.5, "latencyP95TargetMs": 1500},
+    "store": {"availabilityObjectivePct": 99.5, "latencyP95TargetMs": 1500},
+    "bybit": {"availabilityObjectivePct": 99.5, "latencyP95TargetMs": 1500},
+    "api": {"availabilityObjectivePct": 99.5, "latencyP95TargetMs": 1200},
+    "identity": {"availabilityObjectivePct": 99.5, "latencyP95TargetMs": 1200}
+  },
+  "notes": [
+    "This public SLO model is based on synthetic public reachability samples, not full customer-request telemetry.",
+    "Error budget is informational until first-party request-level telemetry is connected.",
+    "No public SLO value is used to trigger automatic production mutation."
+  ]
+}
