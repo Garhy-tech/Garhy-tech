@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "mode": "public-safe",
+  "standard": "OpenTelemetry-compatible contract",
+  "status": "contract-ready",
+  "signals": ["metrics", "logs", "traces", "deployments", "incidents", "changes"],
+  "ingestion": {
+    "publicObserver": "active",
+    "openTelemetry": "adapter-ready",
+    "serverSideOnly": true
+  },
+  "privacy": {
+    "secrets": "never-published",
+    "privateRepositoryMetadata": "excluded",
+    "userPayloads": "excluded",
+    "sensitiveLogs": "excluded"
+  },
+  "note": "The public Engineering OS consumes only bounded, sanitized telemetry. Production-grade OpenTelemetry ingestion must terminate in a private server-side collector before aggregation into public-safe summaries."
+}
