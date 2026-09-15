@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./assets/command-center.svg" alt="GARHY TECH Command Center" width="100%" />
+<img src="./assets/command-center.svg" alt="GARHY TECH Engineering Command Surface" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=700&color=00E5FF&center=true&vCenter=true&width=900&lines=GARHY+TECH+%2F%2F+MISSION+CONTROL;SOFTWARE+%E2%80%A2+AI+%E2%80%A2+AUTOMATION+%E2%80%A2+CLOUD+%E2%80%A2+DEVOPS;OBSERVE+%E2%80%A2+VERIFY+%E2%80%A2+OPERATE+%E2%80%A2+SCALE" alt="GARHY TECH animated header" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=700&color=00E5FF&center=true&vCenter=true&width=900&lines=GARHY+TECH+%2F%2F+ENGINEERING+OS;SOFTWARE+%E2%80%A2+AI+%E2%80%A2+AUTOMATION+%E2%80%A2+CLOUD+%E2%80%A2+DEVOPS;OBSERVE+%E2%80%A2+UNDERSTAND+%E2%80%A2+VERIFY+%E2%80%A2+OPERATE+%E2%80%A2+SCALE" alt="GARHY TECH animated engineering header" />
 
 # GARHY TECH
 
@@ -10,37 +10,40 @@
 
 `PERFORMANCE` · `SCALABILITY` · `MAINTAINABILITY` · `RELIABILITY`
 
-[Launch Mission Control](https://garhy-tech.github.io/Garhy-tech/) · [Website](https://garhy.tech) · [GARHY AI / HANA](https://github.com/Garhy-tech/garhy-gpt-oss-cloud) · [GitHub](https://github.com/Garhy-tech)
+[Launch Engineering OS](https://garhy-tech.github.io/Garhy-tech/) · [Website](https://garhy.tech) · [GARHY AI / HANA](https://github.com/Garhy-tech/garhy-gpt-oss-cloud) · [GitHub](https://github.com/Garhy-tech)
 
 </div>
 
 ---
 
-## `00 // LIVE MISSION CONTROL`
+## `00 // GARHY ENGINEERING OS`
 
 <div align="center">
 
-### [OPEN GARHY TECH MISSION CONTROL](https://garhy-tech.github.io/Garhy-tech/)
+### [OPEN LIVE ENGINEERING OS](https://garhy-tech.github.io/Garhy-tech/)
 
-Public engineering radar with product registry, safe reachability telemetry, architecture context, contribution activity and a functional command console.
+A governed public engineering surface for verified deployment state, safe public reachability, digital-twin context, incident memory, predictive signals, change-risk intelligence and a bounded read-only command console.
 
 </div>
+
+The public plane is intentionally **read-only**. It exposes engineering signals without publishing credentials, privileged identifiers or production mutation controls.
 
 ---
 
 ## `01 // ENGINEERING SYSTEM`
 
 ```text
-DISCOVER -> DIAGNOSE -> DESIGN -> BUILD -> TEST -> DEPLOY -> VERIFY -> AUTOMATE
+DISCOVER -> DIAGNOSE -> DESIGN -> BUILD -> TEST -> DEPLOY -> VERIFY -> OBSERVE -> LEARN
 ```
 
 | Layer | Focus |
 |---|---|
 | Experience | Web · Mobile · AI |
 | Product Systems | AI · Platform · Commerce |
-| Shared Capabilities | Auth · APIs · Data · Automation |
+| Shared Capabilities | Identity · APIs · Data · Automation |
 | Delivery | Cloud · Edge · CI/CD |
-| Quality Plane | Observability · Performance · Reliability · Governance |
+| Intelligence Plane | Telemetry · Incidents · Forecasting · Change Risk |
+| Governance Plane | Security · Reliability · Policy · Human Approval |
 
 ---
 
@@ -53,7 +56,7 @@ DISCOVER -> DIAGNOSE -> DESIGN -> BUILD -> TEST -> DEPLOY -> VERIFY -> AUTOMATE
 | **GARHY Store** | [store.garhy.tech](https://store.garhy.tech) | Commerce |
 | **GARHY API** | [api.garhy.tech](https://api.garhy.tech) | Platform API |
 | **GARHY ID** | [id.garhy.tech](https://id.garhy.tech) | Identity |
-| **Profile Automation** | Active | Public metrics and contribution refresh |
+| **Engineering OS** | [Live surface](https://garhy-tech.github.io/Garhy-tech/) | Public engineering intelligence |
 
 ---
 
@@ -82,7 +85,7 @@ DISCOVER -> DIAGNOSE -> DESIGN -> BUILD -> TEST -> DEPLOY -> VERIFY -> AUTOMATE
   <img src="./assets/github-contribution-grid-snake.svg" alt="GARHY TECH animated GitHub contribution snake" width="100%" />
 </div>
 
-The contribution snake is generated from this account's actual GitHub contribution graph and refreshed automatically by GitHub Actions.
+Generated from this account's real GitHub contribution graph and refreshed automatically by a SHA-pinned GitHub Actions workflow.
 
 ---
 
@@ -94,14 +97,37 @@ The contribution snake is generated from this account's actual GitHub contributi
 
 ---
 
-## `07 // SELECTED PUBLIC WORK`
+## `07 // MACHINE-READABLE ENGINEERING DATA`
+
+The Engineering OS publishes bounded, non-secret JSON surfaces for interoperability and inspection:
+
+`registry` · `telemetry` · `observer` · `forecast` · `incidents` · `topology` · `policies` · `runbooks`
+
+[Open machine-data surface](https://garhy-tech.github.io/Garhy-tech/#data)
+
+---
+
+## `08 // QUALITY & GOVERNANCE`
+
+The profile repository enforces a zero-dependency integrity gate for required public files, JSON validity, HTTPS registry URLs, PWA metadata and SHA-pinned workflow actions.
+
+```text
+PUBLIC PLANE      -> READ ONLY
+SECRETS           -> NEVER PUBLISHED
+PRODUCTION CHANGE -> PRIVATE AUTHORIZED PLANE
+HIGH-IMPACT ACTION -> EXPLICIT HUMAN APPROVAL
+```
+
+---
+
+## `09 // SELECTED PUBLIC WORK`
 
 ### [GARHY AI / HANA](https://github.com/Garhy-tech/garhy-gpt-oss-cloud)
 Public source repository for GARHY AI / HANA.
 
 ---
 
-## `08 // OPERATING PRINCIPLES`
+## `10 // OPERATING PRINCIPLES`
 
 ```text
 01  Architecture before coupling.
@@ -109,15 +135,17 @@ Public source repository for GARHY AI / HANA.
 03  Measure, change, verify.
 04  Keep interfaces explicit.
 05  Build for reliability and maintainability.
-06  Scale only with observable behavior.
+06  Make operational state observable.
+07  Keep public surfaces bounded and safe.
+08  Scale only with measurable behavior.
 ```
 
 ---
 
 <div align="center">
 
-### `GARHY TECH // OBSERVE • VERIFY • OPERATE • SCALE`
+### `GARHY TECH // OBSERVE • UNDERSTAND • VERIFY • OPERATE • SCALE`
 
-[Mission Control](https://garhy-tech.github.io/Garhy-tech/) · [garhy.tech](https://garhy.tech) · [GitHub](https://github.com/Garhy-tech)
+[Engineering OS](https://garhy-tech.github.io/Garhy-tech/) · [garhy.tech](https://garhy.tech) · [GitHub](https://github.com/Garhy-tech)
 
 </div>
