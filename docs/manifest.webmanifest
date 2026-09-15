@@ -1,11 +1,20 @@
 {
-  "name": "GARHY TECH Mission Control",
-  "short_name": "GARHY Mission",
-  "description": "Public engineering telemetry, system registry, architecture and GitHub activity for GARHY TECH.",
+  "name": "GARHY TECH Engineering OS",
+  "short_name": "GARHY OS",
+  "description": "Public engineering telemetry, digital twin, architecture, change intelligence and GitHub activity for GARHY TECH.",
   "start_url": "/Garhy-tech/",
   "scope": "/Garhy-tech/",
   "display": "standalone",
+  "orientation": "any",
   "background_color": "#05080c",
   "theme_color": "#05080c",
-  "icons": []
+  "categories": ["developer", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
 }
