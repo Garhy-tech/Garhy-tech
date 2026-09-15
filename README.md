@@ -2,7 +2,7 @@
 
 <img src="./assets/command-center.svg" alt="GARHY TECH Engineering Command Surface" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=700&color=00E5FF&center=true&vCenter=true&width=900&lines=GARHY+TECH+%2F%2F+ENGINEERING+OS;SOFTWARE+%E2%80%A2+AI+%E2%80%A2+AUTOMATION+%E2%80%A2+CLOUD+%E2%80%A2+DEVOPS;OBSERVE+%E2%80%A2+UNDERSTAND+%E2%80%A2+VERIFY+%E2%80%A2+OPERATE+%E2%80%A2+SCALE" alt="GARHY TECH animated engineering header" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=700&color=00E5FF&center=true&vCenter=true&width=900&lines=GARHY+TECH+%2F%2F+ENGINEERING+OS;SLO+%E2%80%A2+IMPACT+%E2%80%A2+INTELLIGENCE+%E2%80%A2+GOVERNANCE;OBSERVE+%E2%80%A2+UNDERSTAND+%E2%80%A2+CORRELATE+%E2%80%A2+PREDICT" alt="GARHY TECH animated engineering header" />
 
 # GARHY TECH
 
@@ -22,28 +22,30 @@
 
 ### [OPEN LIVE ENGINEERING OS](https://garhy-tech.github.io/Garhy-tech/)
 
-A governed public engineering surface for verified deployment state, safe public reachability, digital-twin context, incident memory, predictive signals, change-risk intelligence and a bounded read-only command console.
+A governed public engineering intelligence surface for deployment state, bounded observability, SLO/error-budget signals, digital-twin impact analysis, incident memory, predictive trends, change-risk intelligence and deterministic diagnostics.
 
 </div>
 
-The public plane is intentionally **read-only**. It exposes engineering signals without publishing credentials, privileged identifiers or production mutation controls.
+The public plane is intentionally **read-only**. It exposes bounded engineering signals without publishing credentials, privileged identifiers, private topology or production mutation controls.
 
 ---
 
-## `01 // ENGINEERING SYSTEM`
+## `01 // ENGINEERING INTELLIGENCE MODEL`
 
 ```text
-DISCOVER -> DIAGNOSE -> DESIGN -> BUILD -> TEST -> DEPLOY -> VERIFY -> OBSERVE -> LEARN
+OBSERVE -> UNDERSTAND -> CORRELATE -> PREDICT -> VERIFY -> LEARN
 ```
 
-| Layer | Focus |
+| Capability | Current public implementation |
 |---|---|
-| Experience | Web · Mobile · AI |
-| Product Systems | AI · Platform · Commerce |
-| Shared Capabilities | Identity · APIs · Data · Automation |
-| Delivery | Cloud · Edge · CI/CD |
-| Intelligence Plane | Telemetry · Incidents · Forecasting · Change Risk |
-| Governance Plane | Security · Reliability · Policy · Human Approval |
+| Telemetry Fabric | OpenTelemetry-compatible public contract with server-side-only ingestion boundary |
+| SLO / Error Budget | 99.9% public reachability proxy derived from bounded observer history |
+| Digital Twin | Machine-readable public dependency graph |
+| Impact Analysis | Downstream blast-radius analysis from the public topology |
+| Change Intelligence 2.0 | Risk score, sensitive paths, migrations, workflows, tests and bounded blast radius |
+| Predictive Signals | Evidence-based moving-window latency trend analysis |
+| Engineering Copilot | Deterministic answers grounded only in loaded public engineering state |
+| Governed Operations | Public mutation denied; remediation reserved for the private authorized plane |
 
 ---
 
@@ -101,7 +103,7 @@ Generated from this account's real GitHub contribution graph and refreshed autom
 
 The Engineering OS publishes bounded, non-secret JSON surfaces for interoperability and inspection:
 
-`registry` · `telemetry` · `observer` · `forecast` · `incidents` · `topology` · `policies` · `runbooks`
+`registry` · `telemetry` · `observer` · `slo` · `impact` · `forecast` · `incidents` · `topology` · `policies` · `runbooks` · `telemetry-fabric` · `change-intelligence`
 
 [Open machine-data surface](https://garhy-tech.github.io/Garhy-tech/#data)
 
@@ -109,12 +111,13 @@ The Engineering OS publishes bounded, non-secret JSON surfaces for interoperabil
 
 ## `08 // QUALITY & GOVERNANCE`
 
-The profile repository enforces a zero-dependency integrity gate for required public files, JSON validity, HTTPS registry URLs, PWA metadata and SHA-pinned workflow actions.
+The profile repository includes a zero-dependency integrity gate for required public files, JSON validity, topology references, HTTPS registry URLs, PWA metadata, telemetry-fabric boundaries and SHA-pinned workflow actions.
 
 ```text
-PUBLIC PLANE      -> READ ONLY
-SECRETS           -> NEVER PUBLISHED
-PRODUCTION CHANGE -> PRIVATE AUTHORIZED PLANE
+PUBLIC PLANE       -> READ ONLY
+SECRETS            -> NEVER PUBLISHED
+PRIVATE TOPOLOGY   -> EXCLUDED
+PRODUCTION CHANGE  -> PRIVATE AUTHORIZED PLANE
 HIGH-IMPACT ACTION -> EXPLICIT HUMAN APPROVAL
 ```
 
@@ -137,14 +140,16 @@ Public source repository for GARHY AI / HANA.
 05  Build for reliability and maintainability.
 06  Make operational state observable.
 07  Keep public surfaces bounded and safe.
-08  Scale only with measurable behavior.
+08  Predictions require evidence, not guessing.
+09  Autonomous actions must be reversible and auditable.
+10  Scale only with measurable behavior.
 ```
 
 ---
 
 <div align="center">
 
-### `GARHY TECH // OBSERVE • UNDERSTAND • VERIFY • OPERATE • SCALE`
+### `GARHY TECH // OBSERVE • UNDERSTAND • CORRELATE • PREDICT • VERIFY • LEARN`
 
 [Engineering OS](https://garhy-tech.github.io/Garhy-tech/) · [garhy.tech](https://garhy.tech) · [GitHub](https://github.com/Garhy-tech)
 

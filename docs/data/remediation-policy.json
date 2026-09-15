@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "mode": "governed-advisory",
+  "publicExecution": false,
+  "classes": {
+    "observe": {"allowed": true, "approval": "none", "examples": ["health probe", "read deployment state", "read SLO state"]},
+    "recommend": {"allowed": true, "approval": "none", "examples": ["suggest rollback", "suggest cache invalidation", "suggest dependency investigation"]},
+    "safe-remediation": {"allowed": false, "approval": "private-operator-policy", "examples": ["retry deployment", "restart stateless workload", "invalidate cache", "toggle approved feature flag"]},
+    "high-impact": {"allowed": false, "approval": "explicit-human-step-up", "examples": ["rollback production", "database migration", "identity policy change", "financial action", "secret rotation", "destructive action"]}
+  },
+  "executionContract": [
+    "Detect from evidence.",
+    "Diagnose and cite supporting signals.",
+    "Select an approved runbook.",
+    "Evaluate policy and blast radius.",
+    "Require the configured approval class.",
+    "Execute only inside the private operator plane.",
+    "Verify recovery and rollback if verification fails.",
+    "Write an immutable audit event."
+  ]
+}

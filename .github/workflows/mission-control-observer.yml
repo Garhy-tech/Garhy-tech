@@ -6,6 +6,10 @@ on:
     branches: [main]
     paths:
       - 'scripts/refresh-mission-control.mjs'
+      - 'docs/data/registry.json'
+      - 'docs/data/topology.json'
+      - 'docs/data/slo-policy.json'
+      - 'docs/data/remediation-policy.json'
       - '.github/workflows/mission-control-observer.yml'
   schedule:
     - cron: '7 * * * *'
@@ -32,14 +36,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/refresh-mission-control.mjs
 
+      - name: Validate generated intelligence
+        run: node scripts/validate-profile.mjs
+
       - name: Commit observer state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/history.json docs/data/incidents.json docs/data/observer.json docs/data/forecast.json docs/data/change-intelligence.json
+          git add docs/data/history.json docs/data/incidents.json docs/data/observer.json docs/data/forecast.json docs/data/change-intelligence.json docs/data/slo.json docs/data/impact.json docs/data/recommendations.json
           if git diff --cached --quiet; then
             echo "No observer state change."
             exit 0
           fi
-          git commit -m "chore(mission-control): refresh public engineering intelligence"
+          git commit -m "chore(engineering-os): refresh public intelligence"
           git push

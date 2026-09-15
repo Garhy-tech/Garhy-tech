@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": null,
+  "mode": "evidence-grounded-advisory",
+  "recommendations": [],
+  "note": "Populated by the public observer only when current evidence justifies an advisory recommendation. Execution remains private and policy-gated."
+}

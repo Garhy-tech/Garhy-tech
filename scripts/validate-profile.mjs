@@ -2,94 +2,21 @@ import { readFile, readdir } from 'node:fs/promises';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const root = fileURLToPath(new URL('../', import.meta.url));
-const failures = [];
-const required = [
-  'README.md',
-  'docs/index.html',
-  'docs/styles.css',
-  'docs/app.js',
-  'docs/manifest.webmanifest',
-  'docs/data/registry.json',
-  'docs/data/telemetry.json',
-  'docs/data/observer.json',
-  'docs/data/forecast.json',
-  'docs/data/incidents.json',
-  'docs/data/topology.json',
-  'docs/data/policies.json',
-  'docs/data/runbooks.json',
-];
-
-const text = async path => readFile(join(root, path), 'utf8');
-const json = async path => JSON.parse(await text(path));
-const fail = message => failures.push(message);
-
-for (const path of required) {
-  try { await text(path); } catch { fail(`missing required file: ${path}`); }
-}
-
-let registry = { systems: [] };
-try { registry = await json('docs/data/registry.json'); } catch (error) { fail(`registry JSON invalid: ${error.message}`); }
-if (!Array.isArray(registry.systems) || registry.systems.length < 1) fail('registry must contain at least one system');
-const ids = new Set();
-for (const system of registry.systems || []) {
-  if (!system?.id || !system?.name || !system?.url) fail('every registry system requires id, name and url');
-  if (ids.has(system.id)) fail(`duplicate registry id: ${system.id}`);
-  ids.add(system.id);
-  try {
-    const url = new URL(system.url);
-    if (url.protocol !== 'https:') fail(`registry URL must use HTTPS: ${system.url}`);
-  } catch { fail(`invalid registry URL: ${system.url}`); }
-}
-
-for (const path of [
-  'docs/data/telemetry.json','docs/data/observer.json','docs/data/forecast.json','docs/data/incidents.json',
-  'docs/data/topology.json','docs/data/policies.json','docs/data/runbooks.json','docs/manifest.webmanifest'
-]) {
-  try { await json(path); } catch (error) { fail(`${path} JSON invalid: ${error.message}`); }
-}
-
-try {
-  const html = await text('docs/index.html');
-  for (const marker of [
-    'GARHY Engineering OS',
-    'Content-Security-Policy',
-    'rel="canonical"',
-    'id="platformHealth"',
-    'id="freshnessState"',
-    'id="machineData"',
-    'id="cmd"',
-  ]) if (!html.includes(marker)) fail(`docs/index.html missing marker: ${marker}`);
-} catch {}
-
-try {
-  const manifest = await json('docs/manifest.webmanifest');
-  if (manifest.start_url !== '/Garhy-tech/') fail('manifest start_url must remain /Garhy-tech/');
-  if (manifest.scope !== '/Garhy-tech/') fail('manifest scope must remain /Garhy-tech/');
-  if (!Array.isArray(manifest.icons) || manifest.icons.length < 1) fail('manifest must define at least one icon');
-} catch {}
-
-try {
-  const workflowDir = join(root, '.github', 'workflows');
-  const workflows = (await readdir(workflowDir)).filter(name => /\.ya?ml$/i.test(name));
-  for (const name of workflows) {
-    const body = await readFile(join(workflowDir, name), 'utf8');
-    for (const match of body.matchAll(/^\s*uses:\s*([^\s#]+)\s*$/gm)) {
-      const ref = match[1];
-      if (!/@[0-9a-f]{40}$/i.test(ref)) fail(`${name}: action must be pinned to a full commit SHA: ${ref}`);
-    }
-  }
-} catch (error) { fail(`workflow validation failed: ${error.message}`); }
-
-try {
-  const allPublic = [await text('README.md'), await text('docs/index.html'), await text('docs/app.js')].join('\n');
-  if (/http:\/\//i.test(allPublic)) fail('public profile surfaces must not contain insecure http:// links');
-} catch {}
-
-if (failures.length) {
-  console.error('GARHY profile integrity gate FAILED');
-  for (const item of failures) console.error(`- ${item}`);
-  process.exit(1);
-}
-
-console.log(`GARHY profile integrity gate PASS — ${registry.systems.length} registered systems, pinned workflows, valid public shell.`);
+const root=fileURLToPath(new URL('../',import.meta.url)),failures=[];
+const required=['README.md','docs/index.html','docs/styles.css','docs/app.js','docs/icon.svg','docs/manifest.webmanifest','docs/data/registry.json','docs/data/telemetry.json','docs/data/observer.json','docs/data/forecast.json','docs/data/incidents.json','docs/data/topology.json','docs/data/policies.json','docs/data/runbooks.json','docs/data/slo.json','docs/data/slo-policy.json','docs/data/impact.json','docs/data/telemetry-fabric.json','docs/data/observability.json','docs/data/remediation-policy.json','docs/data/recommendations.json','docs/data/change-intelligence.json'];
+const text=async p=>readFile(join(root,p),'utf8'),json=async p=>JSON.parse(await text(p)),fail=m=>failures.push(m);
+for(const p of required){try{await text(p)}catch{fail(`missing required file: ${p}`)}}
+let registry={systems:[]};try{registry=await json('docs/data/registry.json')}catch(e){fail(`registry JSON invalid: ${e.message}`)}
+if(!Array.isArray(registry.systems)||!registry.systems.length)fail('registry must contain at least one system');const ids=new Set();for(const s of registry.systems||[]){if(!s?.id||!s?.name||!s?.url)fail('every registry system requires id, name and url');if(ids.has(s.id))fail(`duplicate registry id: ${s.id}`);ids.add(s.id);try{const u=new URL(s.url);if(u.protocol!=='https:')fail(`registry URL must use HTTPS: ${s.url}`)}catch{fail(`invalid registry URL: ${s.url}`)}}
+for(const p of required.filter(x=>x.endsWith('.json')||x.endsWith('.webmanifest'))){try{await json(p)}catch(e){fail(`${p} JSON invalid: ${e.message}`)}}
+try{const topology=await json('docs/data/topology.json'),nodeIds=new Set((topology.nodes||[]).map(n=>n.id));for(const e of topology.edges||[])if(!nodeIds.has(e.from)||!nodeIds.has(e.to))fail(`topology edge references unknown node: ${e.from}->${e.to}`)}catch{}
+try{const fabric=await json('docs/data/telemetry-fabric.json');if(fabric.ingestion?.serverSideOnly!==true)fail('telemetry fabric must require server-side ingestion');if(!Array.isArray(fabric.signals)||fabric.signals.length<4)fail('telemetry fabric must declare supported signal classes')}catch{}
+try{const obs=await json('docs/data/observability.json');if(obs.futureIngestion?.standard!=='OpenTelemetry')fail('observability contract must target OpenTelemetry');if(obs.signals?.logs?.public!==false||obs.signals?.traces?.public!==false)fail('logs and traces must remain private on public surface')}catch{}
+try{const rp=await json('docs/data/remediation-policy.json');if(rp.publicExecution!==false)fail('public remediation execution must remain disabled');if(!Array.isArray(rp.executionContract)||rp.executionContract.length<6)fail('remediation execution contract is incomplete')}catch{}
+try{const html=await text('docs/index.html');for(const m of ['GARHY Engineering OS','Content-Security-Policy','rel="canonical"','id="platformHealth"','id="freshnessState"','id="sloGrid"','id="impactGrid"','id="copilotAnswer"','id="machineData"','id="cmd"'])if(!html.includes(m))fail(`docs/index.html missing marker: ${m}`)}catch{}
+try{const app=await text('docs/app.js');for(const m of ['slo.json','impact.json','telemetry-fabric.json','public_mutation=DENIED'])if(!app.includes(m))fail(`docs/app.js missing intelligence contract: ${m}`)}catch{}
+try{const manifest=await json('docs/manifest.webmanifest');if(manifest.start_url!=='/Garhy-tech/')fail('manifest start_url must remain /Garhy-tech/');if(manifest.scope!=='/Garhy-tech/')fail('manifest scope must remain /Garhy-tech/');if(!Array.isArray(manifest.icons)||!manifest.icons.length)fail('manifest must define at least one icon')}catch{}
+try{const dir=join(root,'.github','workflows'),workflows=(await readdir(dir)).filter(n=>/\.ya?ml$/i.test(n));for(const name of workflows){const body=await readFile(join(dir,name),'utf8');for(const match of body.matchAll(/^\s*uses:\s*([^\s#]+)\s*$/gm)){const ref=match[1];if(!/@[0-9a-f]{40}$/i.test(ref))fail(`${name}: action must be pinned to a full commit SHA: ${ref}`)}}}catch(e){fail(`workflow validation failed: ${e.message}`)}
+try{const all=[await text('README.md'),await text('docs/index.html'),await text('docs/app.js')].join('\n');if(/http:\/\//i.test(all))fail('public surfaces must not contain insecure http:// links');if(/(service[_-]?role|secret[_-]?key|private[_-]?key|password\s*=)/i.test(all))fail('public surfaces contain a forbidden sensitive-token pattern')}catch{}
+if(failures.length){console.error('GARHY Engineering OS integrity gate FAILED');for(const x of failures)console.error(`- ${x}`);process.exit(1)}
+console.log(`GARHY Engineering OS integrity gate PASS — ${registry.systems.length} systems, pinned workflows, SLO/impact/OpenTelemetry/governance contracts valid.`);
