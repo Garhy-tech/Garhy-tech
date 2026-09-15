@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="t d">
+  <title id="t">GARHY Engineering OS</title>
+  <desc id="d">GARHY TECH engineering command icon</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061017"/>
+      <stop offset="1" stop-color="#02070b"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#g)"/>
+  <rect x="34" y="34" width="444" height="444" rx="88" fill="none" stroke="#1b5b68" stroke-width="10"/>
+  <path d="M130 164h252M130 348h252M164 130v252M348 130v252" stroke="#0e2d35" stroke-width="4"/>
+  <circle cx="256" cy="256" r="120" fill="#07141a" stroke="#72f4ff" stroke-width="10"/>
+  <path d="M183 216c13-43 46-67 91-67 31 0 58 11 79 34l-32 30c-13-13-28-19-47-19-35 0-58 24-58 62 0 39 24 63 62 63 13 0 24-2 34-7v-31h-43v-43h92v100c-27 19-56 29-89 29-78 0-132-50-132-125 0-10 1-20 3-30z" fill="#eafcff"/>
+  <circle cx="402" cy="110" r="13" fill="#22c55e"/>
+</svg>
