@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": null,
+  "systems": {},
+  "note": "Impact analysis is derived from the public digital twin dependency graph. It is advisory and intentionally excludes private topology."
+}
