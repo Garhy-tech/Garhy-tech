@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": null,
+  "method": "public observer availability over bounded sample window",
+  "objective": 99.9,
+  "systems": {},
+  "note": "SLO values are computed from public reachability samples only. They do not represent private service-level telemetry until a server-side OpenTelemetry adapter is connected."
+}
