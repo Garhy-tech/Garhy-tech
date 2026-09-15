@@ -8,6 +8,8 @@ on:
       - 'scripts/refresh-mission-control.mjs'
       - 'docs/data/registry.json'
       - 'docs/data/topology.json'
+      - 'docs/data/slo-policy.json'
+      - 'docs/data/remediation-policy.json'
       - '.github/workflows/mission-control-observer.yml'
   schedule:
     - cron: '7 * * * *'
@@ -41,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/history.json docs/data/incidents.json docs/data/observer.json docs/data/forecast.json docs/data/change-intelligence.json docs/data/slo.json docs/data/impact.json
+          git add docs/data/history.json docs/data/incidents.json docs/data/observer.json docs/data/forecast.json docs/data/change-intelligence.json docs/data/slo.json docs/data/impact.json docs/data/recommendations.json
           if git diff --cached --quiet; then
             echo "No observer state change."
             exit 0
