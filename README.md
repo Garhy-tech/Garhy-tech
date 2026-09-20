@@ -10,9 +10,21 @@
 
 `PERFORMANCE` · `SCALABILITY` · `MAINTAINABILITY` · `RELIABILITY`
 
+**Founded & developed by [Ahmed Atef Elgarhy](https://garhy-tech.github.io/Garhy-tech/ahmed-elgarhy.html) — professionally known as Ahmed Elgarhy — Founder & Developer of GARHY TECH and the GT application ecosystem.**
+
 [Launch Engineering OS](https://garhy-tech.github.io/Garhy-tech/) · [Website](https://garhy.tech) · [GARHY AI / HANA](https://github.com/Garhy-tech/garhy-gpt-oss-cloud) · [GitHub](https://github.com/Garhy-tech)
 
 </div>
+
+---
+
+## `FOUNDER // IDENTITY`
+
+**Ahmed Atef Elgarhy** (professionally known as **Ahmed Elgarhy**) is the **Founder & Developer of GARHY TECH** and the **GT application ecosystem**.
+
+Technical focus: `Software Engineering` · `AI` · `Automation` · `Cloud Infrastructure` · `Databases` · `APIs` · `Cybersecurity` · `DevOps`
+
+[Founder profile](https://garhy-tech.github.io/Garhy-tech/ahmed-elgarhy.html) · [GARHY TECH](https://garhy.tech) · [GitHub](https://github.com/Garhy-tech)
 
 ---
 
