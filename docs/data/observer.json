@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-22T11:18:29.404Z",
+  "generatedAt": "2026-09-22T12:23:07.243Z",
   "source": "GitHub Actions public observer",
   "mode": "advisory-only",
   "signals": [
@@ -15,8 +15,8 @@
     "corporate": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 551,
-      "samples": 3,
+      "latencyMs": 454,
+      "samples": 4,
       "availabilityPct": 100,
       "latencyP50Ms": 192,
       "latencyP95Ms": 551,
@@ -30,12 +30,12 @@
     "hana": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 134,
-      "samples": 3,
+      "latencyMs": 158,
+      "samples": 4,
       "availabilityPct": 100,
       "latencyP50Ms": 116,
-      "latencyP95Ms": 134,
-      "latencyP99Ms": 134,
+      "latencyP95Ms": 158,
+      "latencyP99Ms": 158,
       "trend": {
         "state": "warming-up",
         "confidence": 0,
@@ -45,8 +45,8 @@
     "store": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 1105,
-      "samples": 3,
+      "latencyMs": 2009,
+      "samples": 4,
       "availabilityPct": 100,
       "latencyP50Ms": 1105,
       "latencyP95Ms": 2091,
@@ -60,12 +60,12 @@
     "bybit": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 224,
-      "samples": 3,
+      "latencyMs": 320,
+      "samples": 4,
       "availabilityPct": 100,
       "latencyP50Ms": 224,
-      "latencyP95Ms": 315,
-      "latencyP99Ms": 315,
+      "latencyP95Ms": 320,
+      "latencyP99Ms": 320,
       "trend": {
         "state": "warming-up",
         "confidence": 0,
@@ -75,12 +75,12 @@
     "api": {
       "reachable": true,
       "status": 404,
-      "latencyMs": 321,
-      "samples": 3,
+      "latencyMs": 525,
+      "samples": 4,
       "availabilityPct": 100,
       "latencyP50Ms": 321,
-      "latencyP95Ms": 369,
-      "latencyP99Ms": 369,
+      "latencyP95Ms": 525,
+      "latencyP99Ms": 525,
       "trend": {
         "state": "warming-up",
         "confidence": 0,
@@ -90,8 +90,8 @@
     "identity": {
       "reachable": true,
       "status": 404,
-      "latencyMs": 275,
-      "samples": 3,
+      "latencyMs": 454,
+      "samples": 4,
       "availabilityPct": 100,
       "latencyP50Ms": 365,
       "latencyP95Ms": 729,
@@ -104,5 +104,5 @@
     }
   },
   "openIncidents": 0,
-  "historyWindowSamples": 3
+  "historyWindowSamples": 4
 }
