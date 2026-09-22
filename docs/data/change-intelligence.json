@@ -1,6 +1,26 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": null,
-  "repository": "Garhy-tech/garhy-gpt-oss-cloud",
-  "status": "warming-up"
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-22T09:53:14.784Z",
+  "repository": "gar7y-tech/garhy-gpt-oss-cloud",
+  "status": "ready",
+  "latestChange": {
+    "sha": "1ac891751992",
+    "message": "chore(brand): remove superseded GARHY logo asset",
+    "authoredAt": "2026-09-20T07:41:30Z",
+    "verified": false,
+    "additions": 0,
+    "deletions": 0,
+    "riskScore": 2,
+    "riskLevel": "low",
+    "blastRadius": "bounded",
+    "sensitivePaths": [],
+    "factors": {
+      "filesChanged": 1,
+      "churn": 0,
+      "sensitivePaths": 0,
+      "migrations": 0,
+      "workflows": 0,
+      "tests": 0
+    }
+  }
 }

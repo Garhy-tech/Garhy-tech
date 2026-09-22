@@ -1,8 +1,67 @@
 {
   "schemaVersion": 1,
-  "generatedAt": null,
-  "method": "public observer availability over bounded sample window",
-  "objective": 99.9,
-  "systems": {},
-  "note": "SLO values are computed from public reachability samples only. They do not represent private service-level telemetry until a server-side OpenTelemetry adapter is connected."
+  "generatedAt": "2026-09-22T09:53:14.784Z",
+  "basis": "synthetic-public-reachability",
+  "systems": {
+    "corporate": {
+      "objectivePct": 99.9,
+      "observedAvailabilityPct": 100,
+      "errorBudgetRemainingPct": 100,
+      "burnRate": 0,
+      "latencyP95Ms": 192,
+      "latencyP95TargetMs": 1200,
+      "state": "within-objective",
+      "sampleBasis": 1
+    },
+    "hana": {
+      "objectivePct": 99.9,
+      "observedAvailabilityPct": 100,
+      "errorBudgetRemainingPct": 100,
+      "burnRate": 0,
+      "latencyP95Ms": 116,
+      "latencyP95TargetMs": 1500,
+      "state": "within-objective",
+      "sampleBasis": 1
+    },
+    "store": {
+      "objectivePct": 99.9,
+      "observedAvailabilityPct": 100,
+      "errorBudgetRemainingPct": 100,
+      "burnRate": 0,
+      "latencyP95Ms": 2091,
+      "latencyP95TargetMs": 1500,
+      "state": "at-risk",
+      "sampleBasis": 1
+    },
+    "bybit": {
+      "objectivePct": 99.9,
+      "observedAvailabilityPct": 100,
+      "errorBudgetRemainingPct": 100,
+      "burnRate": 0,
+      "latencyP95Ms": 315,
+      "latencyP95TargetMs": 1500,
+      "state": "within-objective",
+      "sampleBasis": 1
+    },
+    "api": {
+      "objectivePct": 99.9,
+      "observedAvailabilityPct": 100,
+      "errorBudgetRemainingPct": 100,
+      "burnRate": 0,
+      "latencyP95Ms": 369,
+      "latencyP95TargetMs": 1200,
+      "state": "within-objective",
+      "sampleBasis": 1
+    },
+    "identity": {
+      "objectivePct": 99.9,
+      "observedAvailabilityPct": 100,
+      "errorBudgetRemainingPct": 100,
+      "burnRate": 0,
+      "latencyP95Ms": 729,
+      "latencyP95TargetMs": 1200,
+      "state": "within-objective",
+      "sampleBasis": 1
+    }
+  }
 }

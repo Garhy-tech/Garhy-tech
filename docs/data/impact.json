@@ -1,6 +1,38 @@
 {
   "schemaVersion": 1,
-  "generatedAt": null,
-  "systems": {},
-  "note": "Impact analysis is derived from the public digital twin dependency graph. It is advisory and intentionally excludes private topology."
+  "generatedAt": "2026-09-22T09:53:14.784Z",
+  "topologyNodes": 11,
+  "topologyEdges": 10,
+  "systems": {
+    "corporate": {
+      "affectedNodes": [],
+      "blastRadius": 0,
+      "state": "nominal"
+    },
+    "hana": {
+      "affectedNodes": [],
+      "blastRadius": 0,
+      "state": "nominal"
+    },
+    "store": {
+      "affectedNodes": [],
+      "blastRadius": 0,
+      "state": "nominal"
+    },
+    "bybit": {
+      "affectedNodes": [],
+      "blastRadius": 0,
+      "state": "nominal"
+    },
+    "api": {
+      "affectedNodes": [],
+      "blastRadius": 0,
+      "state": "nominal"
+    },
+    "identity": {
+      "affectedNodes": [],
+      "blastRadius": 0,
+      "state": "nominal"
+    }
+  }
 }

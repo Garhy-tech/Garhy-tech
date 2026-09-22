@@ -1,9 +1,108 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": null,
+  "schemaVersion": 3,
+  "generatedAt": "2026-09-22T09:53:14.784Z",
   "source": "GitHub Actions public observer",
   "mode": "advisory-only",
-  "systems": {},
+  "signals": [
+    "synthetic-reachability",
+    "latency",
+    "deployment-snapshot",
+    "change-risk",
+    "slo-proxy",
+    "dependency-impact"
+  ],
+  "systems": {
+    "corporate": {
+      "reachable": true,
+      "status": 200,
+      "latencyMs": 192,
+      "samples": 1,
+      "availabilityPct": 100,
+      "latencyP50Ms": 192,
+      "latencyP95Ms": 192,
+      "latencyP99Ms": 192,
+      "trend": {
+        "state": "warming-up",
+        "confidence": 0,
+        "note": "Collecting historical telemetry."
+      }
+    },
+    "hana": {
+      "reachable": true,
+      "status": 200,
+      "latencyMs": 116,
+      "samples": 1,
+      "availabilityPct": 100,
+      "latencyP50Ms": 116,
+      "latencyP95Ms": 116,
+      "latencyP99Ms": 116,
+      "trend": {
+        "state": "warming-up",
+        "confidence": 0,
+        "note": "Collecting historical telemetry."
+      }
+    },
+    "store": {
+      "reachable": true,
+      "status": 200,
+      "latencyMs": 2091,
+      "samples": 1,
+      "availabilityPct": 100,
+      "latencyP50Ms": 2091,
+      "latencyP95Ms": 2091,
+      "latencyP99Ms": 2091,
+      "trend": {
+        "state": "warming-up",
+        "confidence": 0,
+        "note": "Collecting historical telemetry."
+      }
+    },
+    "bybit": {
+      "reachable": true,
+      "status": 200,
+      "latencyMs": 315,
+      "samples": 1,
+      "availabilityPct": 100,
+      "latencyP50Ms": 315,
+      "latencyP95Ms": 315,
+      "latencyP99Ms": 315,
+      "trend": {
+        "state": "warming-up",
+        "confidence": 0,
+        "note": "Collecting historical telemetry."
+      }
+    },
+    "api": {
+      "reachable": true,
+      "status": 404,
+      "latencyMs": 369,
+      "samples": 1,
+      "availabilityPct": 100,
+      "latencyP50Ms": 369,
+      "latencyP95Ms": 369,
+      "latencyP99Ms": 369,
+      "trend": {
+        "state": "warming-up",
+        "confidence": 0,
+        "note": "Collecting historical telemetry."
+      }
+    },
+    "identity": {
+      "reachable": true,
+      "status": 404,
+      "latencyMs": 729,
+      "samples": 1,
+      "availabilityPct": 100,
+      "latencyP50Ms": 729,
+      "latencyP95Ms": 729,
+      "latencyP99Ms": 729,
+      "trend": {
+        "state": "warming-up",
+        "confidence": 0,
+        "note": "Collecting historical telemetry."
+      }
+    }
+  },
   "openIncidents": 0,
-  "historyWindowSamples": 0
+  "historyWindowSamples": 1
 }
