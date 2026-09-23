@@ -1,33 +1,39 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T17:18:05.206Z",
+  "generatedAt": "2026-09-23T18:22:18.181Z",
   "repository": "gar7y-tech/garhy-gpt-oss-cloud",
   "status": "ready",
   "latestChange": {
-    "sha": "f5b1ac474c72",
-    "message": "Merge PR #18: harden GT.BYBIT CSP and PWA cache",
-    "authoredAt": "2026-09-23T15:56:19Z",
+    "sha": "b6d2fb434e90",
+    "message": "Merge PR #19: GT.BYBIT receipts, branding and P2P monitor",
+    "authoredAt": "2026-09-23T17:23:17Z",
     "verified": true,
-    "additions": 37,
-    "deletions": 16,
-    "riskScore": 31,
-    "riskLevel": "elevated",
+    "additions": 736,
+    "deletions": 112,
+    "riskScore": 53,
+    "riskLevel": "high",
     "blastRadius": "review-required",
     "sensitivePaths": [
-      "gt-bybit-app/gt-bybit/index.html",
-      "gt-bybit-app/gt-bybit/p2p.html",
-      "gt-bybit-app/gt-bybit/preferences-bootstrap.js",
-      "gt-bybit-app/gt-bybit/sw.js",
-      "gt-bybit-app/scripts/check.mjs",
-      "gt-bybit-app/test/service-worker.test.js"
+      "gt-bybit-app/api/bybit.js",
+      "gt-bybit-app/api/p2p.js",
+      "gt-bybit-app/assets/gt-bybit/brand/garhy-tech-signature.webp",
+      "gt-bybit-app/assets/gt-bybit/brand/gt-app-mark.webp",
+      "gt-bybit-app/assets/gt-bybit/brand/gt-logo.png",
+      "gt-bybit-app/assets/gt-bybit/brand/gt-primary.webp",
+      "gt-bybit-app/assets/gt-bybit/gt-profile.jpg",
+      "gt-bybit-app/assets/gt-bybit/icon-180.png",
+      "gt-bybit-app/assets/gt-bybit/icon-192.png",
+      "gt-bybit-app/assets/gt-bybit/icon-512.png",
+      "gt-bybit-app/assets/gt-bybit/icon-maskable-192.png",
+      "gt-bybit-app/assets/gt-bybit/icon-maskable-512.png"
     ],
     "factors": {
-      "filesChanged": 6,
-      "churn": 53,
-      "sensitivePaths": 6,
+      "filesChanged": 28,
+      "churn": 848,
+      "sensitivePaths": 28,
       "migrations": 0,
       "workflows": 0,
-      "tests": 1
+      "tests": 3
     }
   }
 }
