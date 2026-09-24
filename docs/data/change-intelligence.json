@@ -1,27 +1,25 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-24T03:18:23.141Z",
+  "generatedAt": "2026-09-24T04:18:53.697Z",
   "repository": "gar7y-tech/garhy-gpt-oss-cloud",
   "status": "ready",
   "latestChange": {
-    "sha": "2cf071363a9b",
-    "message": "fix(gt-bybit): complete live readiness verification",
-    "authoredAt": "2026-09-23T23:45:12Z",
+    "sha": "005318059759",
+    "message": "security: align GT.BYBIT governance and Hana CSP baseline",
+    "authoredAt": "2026-09-24T03:37:07Z",
     "verified": true,
-    "additions": 45,
-    "deletions": 6,
-    "riskScore": 25,
+    "additions": 134,
+    "deletions": 64,
+    "riskScore": 35,
     "riskLevel": "elevated",
     "blastRadius": "review-required",
     "sensitivePaths": [
-      "gt-bybit-app/api/bybit.js",
-      "gt-bybit-app/api/p2p.js",
-      "gt-bybit-app/test/security.test.js"
+      "SECURITY.md"
     ],
     "factors": {
-      "filesChanged": 3,
-      "churn": 51,
-      "sensitivePaths": 3,
+      "filesChanged": 7,
+      "churn": 198,
+      "sensitivePaths": 1,
       "migrations": 0,
       "workflows": 0,
       "tests": 1
