@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T15:20:26.055Z",
+  "generatedAt": "2026-09-24T16:19:48.302Z",
   "mode": "evidence-grounded-advisory",
   "recommendations": [
     {
@@ -19,16 +19,7 @@
       "systemId": "store",
       "severity": "elevated",
       "evidence": [
-        "Recent latency is 51% above the prior window."
-      ],
-      "recommendation": "Correlate the latency shift with recent deployments and upstream dependencies.",
-      "runbook": "runtime-warning"
-    },
-    {
-      "systemId": "identity",
-      "severity": "elevated",
-      "evidence": [
-        "Recent latency is 58% above the prior window."
+        "Recent latency is 60% above the prior window."
       ],
       "recommendation": "Correlate the latency shift with recent deployments and upstream dependencies.",
       "runbook": "runtime-warning"
