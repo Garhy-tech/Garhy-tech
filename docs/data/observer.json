@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-24T00:24:54.016Z",
+  "generatedAt": "2026-09-24T01:17:16.958Z",
   "source": "GitHub Actions public observer",
   "mode": "advisory-only",
   "signals": [
@@ -15,10 +15,10 @@
     "corporate": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 389,
-      "samples": 40,
+      "latencyMs": 495,
+      "samples": 41,
       "availabilityPct": 100,
-      "latencyP50Ms": 249,
+      "latencyP50Ms": 252,
       "latencyP95Ms": 840,
       "latencyP99Ms": 1485,
       "trend": {
@@ -30,10 +30,10 @@
     "hana": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 138,
-      "samples": 40,
+      "latencyMs": 209,
+      "samples": 41,
       "availabilityPct": 100,
-      "latencyP50Ms": 142,
+      "latencyP50Ms": 145,
       "latencyP95Ms": 439,
       "latencyP99Ms": 461,
       "trend": {
@@ -45,10 +45,10 @@
     "store": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 1676,
-      "samples": 40,
+      "latencyMs": 1740,
+      "samples": 41,
       "availabilityPct": 100,
-      "latencyP50Ms": 1348,
+      "latencyP50Ms": 1367,
       "latencyP95Ms": 2091,
       "latencyP99Ms": 2788,
       "trend": {
@@ -60,10 +60,10 @@
     "bybit": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 288,
-      "samples": 40,
+      "latencyMs": 582,
+      "samples": 41,
       "availabilityPct": 100,
-      "latencyP50Ms": 340,
+      "latencyP50Ms": 350,
       "latencyP95Ms": 634,
       "latencyP99Ms": 671,
       "trend": {
@@ -75,8 +75,8 @@
     "api": {
       "reachable": true,
       "status": 404,
-      "latencyMs": 367,
-      "samples": 40,
+      "latencyMs": 276,
+      "samples": 41,
       "availabilityPct": 100,
       "latencyP50Ms": 344,
       "latencyP95Ms": 620,
@@ -90,8 +90,8 @@
     "identity": {
       "reachable": true,
       "status": 404,
-      "latencyMs": 392,
-      "samples": 40,
+      "latencyMs": 390,
+      "samples": 41,
       "availabilityPct": 100,
       "latencyP50Ms": 408,
       "latencyP95Ms": 720,
@@ -104,5 +104,5 @@
     }
   },
   "openIncidents": 0,
-  "historyWindowSamples": 40
+  "historyWindowSamples": 41
 }
