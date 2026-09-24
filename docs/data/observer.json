@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-24T09:19:41.415Z",
+  "generatedAt": "2026-09-24T10:19:19.070Z",
   "source": "GitHub Actions public observer",
   "mode": "advisory-only",
   "signals": [
@@ -15,8 +15,8 @@
     "corporate": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 258,
-      "samples": 49,
+      "latencyMs": 283,
+      "samples": 50,
       "availabilityPct": 100,
       "latencyP50Ms": 249,
       "latencyP95Ms": 840,
@@ -30,10 +30,10 @@
     "hana": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 223,
-      "samples": 49,
+      "latencyMs": 134,
+      "samples": 50,
       "availabilityPct": 100,
-      "latencyP50Ms": 142,
+      "latencyP50Ms": 141,
       "latencyP95Ms": 439,
       "latencyP99Ms": 461,
       "trend": {
@@ -45,8 +45,8 @@
     "store": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 1181,
-      "samples": 49,
+      "latencyMs": 1629,
+      "samples": 50,
       "availabilityPct": 100,
       "latencyP50Ms": 1367,
       "latencyP95Ms": 2091,
@@ -60,10 +60,10 @@
     "bybit": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 436,
-      "samples": 49,
+      "latencyMs": 321,
+      "samples": 50,
       "availabilityPct": 100,
-      "latencyP50Ms": 360,
+      "latencyP50Ms": 358,
       "latencyP95Ms": 642,
       "latencyP99Ms": 671,
       "trend": {
@@ -75,34 +75,34 @@
     "api": {
       "reachable": true,
       "status": 404,
-      "latencyMs": 377,
-      "samples": 49,
+      "latencyMs": 398,
+      "samples": 50,
       "availabilityPct": 100,
       "latencyP50Ms": 340,
       "latencyP95Ms": 633,
       "latencyP99Ms": 692,
       "trend": {
-        "state": "improving",
-        "confidence": 31,
-        "note": "Recent latency improved versus the prior window."
+        "state": "stable",
+        "confidence": 70,
+        "note": "No material latency trend detected."
       }
     },
     "identity": {
       "reachable": true,
       "status": 404,
-      "latencyMs": 460,
-      "samples": 49,
+      "latencyMs": 328,
+      "samples": 50,
       "availabilityPct": 100,
-      "latencyP50Ms": 425,
+      "latencyP50Ms": 408,
       "latencyP95Ms": 720,
       "latencyP99Ms": 759,
       "trend": {
-        "state": "stable",
-        "confidence": 70,
-        "note": "No material latency trend detected."
+        "state": "improving",
+        "confidence": 30,
+        "note": "Recent latency improved versus the prior window."
       }
     }
   },
   "openIncidents": 0,
-  "historyWindowSamples": 49
+  "historyWindowSamples": 50
 }
