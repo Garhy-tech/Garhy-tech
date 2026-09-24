@@ -1,37 +1,30 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-23T23:14:51.212Z",
+  "generatedAt": "2026-09-24T00:24:54.016Z",
   "repository": "gar7y-tech/garhy-gpt-oss-cloud",
   "status": "ready",
   "latestChange": {
-    "sha": "ddacb81dd46c",
-    "message": "feat(gt-bybit): restore true live production mode",
-    "authoredAt": "2026-09-23T21:52:39Z",
+    "sha": "2cf071363a9b",
+    "message": "fix(gt-bybit): complete live readiness verification",
+    "authoredAt": "2026-09-23T23:45:12Z",
     "verified": true,
-    "additions": 32,
-    "deletions": 29,
-    "riskScore": 33,
+    "additions": 45,
+    "deletions": 6,
+    "riskScore": 25,
     "riskLevel": "elevated",
     "blastRadius": "review-required",
     "sensitivePaths": [
       "gt-bybit-app/api/bybit.js",
       "gt-bybit-app/api/p2p.js",
-      "gt-bybit-app/gt-bybit/app.js",
-      "gt-bybit-app/gt-bybit/demo-state.js",
-      "gt-bybit-app/gt-bybit/index.html",
-      "gt-bybit-app/gt-bybit/p2p.html",
-      "gt-bybit-app/gt-bybit/sw.js",
-      "gt-bybit-app/test/demo-state.test.js",
-      "gt-bybit-app/test/harness.js",
       "gt-bybit-app/test/security.test.js"
     ],
     "factors": {
-      "filesChanged": 10,
-      "churn": 61,
-      "sensitivePaths": 10,
+      "filesChanged": 3,
+      "churn": 51,
+      "sensitivePaths": 3,
       "migrations": 0,
       "workflows": 0,
-      "tests": 3
+      "tests": 1
     }
   }
 }
