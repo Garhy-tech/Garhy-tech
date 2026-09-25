@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-25T06:23:50.256Z",
+  "generatedAt": "2026-09-25T07:19:38.823Z",
   "source": "GitHub Actions public observer",
   "mode": "advisory-only",
   "signals": [
@@ -15,8 +15,8 @@
     "corporate": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 210,
-      "samples": 70,
+      "latencyMs": 157,
+      "samples": 71,
       "availabilityPct": 100,
       "latencyP50Ms": 241,
       "latencyP95Ms": 840,
@@ -30,8 +30,8 @@
     "hana": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 126,
-      "samples": 70,
+      "latencyMs": 84,
+      "samples": 71,
       "availabilityPct": 100,
       "latencyP50Ms": 140,
       "latencyP95Ms": 434,
@@ -45,8 +45,8 @@
     "store": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 1618,
-      "samples": 70,
+      "latencyMs": 1112,
+      "samples": 71,
       "availabilityPct": 100,
       "latencyP50Ms": 1512,
       "latencyP95Ms": 2145,
@@ -60,8 +60,8 @@
     "bybit": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 240,
-      "samples": 70,
+      "latencyMs": 117,
+      "samples": 71,
       "availabilityPct": 100,
       "latencyP50Ms": 340,
       "latencyP95Ms": 656,
@@ -75,8 +75,8 @@
     "api": {
       "reachable": true,
       "status": 404,
-      "latencyMs": 205,
-      "samples": 70,
+      "latencyMs": 326,
+      "samples": 71,
       "availabilityPct": 100,
       "latencyP50Ms": 347,
       "latencyP95Ms": 633,
@@ -90,8 +90,8 @@
     "identity": {
       "reachable": true,
       "status": 404,
-      "latencyMs": 314,
-      "samples": 70,
+      "latencyMs": 307,
+      "samples": 71,
       "availabilityPct": 100,
       "latencyP50Ms": 409,
       "latencyP95Ms": 729,
@@ -104,5 +104,5 @@
     }
   },
   "openIncidents": 0,
-  "historyWindowSamples": 70
+  "historyWindowSamples": 71
 }
