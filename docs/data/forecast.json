@@ -1,17 +1,17 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-25T02:17:14.346Z",
+  "generatedAt": "2026-09-25T03:17:37.374Z",
   "method": "bounded moving-window anomaly and latency trend analysis",
   "note": "Advisory only. Not a guarantee of future outage.",
   "systems": {
     "corporate": {
       "state": "improving",
-      "confidence": 56,
+      "confidence": 52,
       "note": "Recent latency improved versus the prior window."
     },
     "hana": {
       "state": "improving",
-      "confidence": 45,
+      "confidence": 35,
       "note": "Recent latency improved versus the prior window."
     },
     "store": {
@@ -21,7 +21,7 @@
     },
     "bybit": {
       "state": "improving",
-      "confidence": 34,
+      "confidence": 36,
       "note": "Recent latency improved versus the prior window."
     },
     "api": {
