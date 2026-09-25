@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-25T17:17:32.893Z",
+  "generatedAt": "2026-09-25T18:20:36.281Z",
   "source": "GitHub Actions public observer",
   "mode": "advisory-only",
   "signals": [
@@ -15,8 +15,8 @@
     "corporate": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 369,
-      "samples": 81,
+      "latencyMs": 450,
+      "samples": 82,
       "availabilityPct": 100,
       "latencyP50Ms": 238,
       "latencyP95Ms": 740,
@@ -30,8 +30,8 @@
     "hana": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 153,
-      "samples": 81,
+      "latencyMs": 248,
+      "samples": 82,
       "availabilityPct": 100,
       "latencyP50Ms": 138,
       "latencyP95Ms": 338,
@@ -45,11 +45,11 @@
     "store": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 1504,
-      "samples": 81,
+      "latencyMs": 2694,
+      "samples": 82,
       "availabilityPct": 100,
       "latencyP50Ms": 1520,
-      "latencyP95Ms": 2091,
+      "latencyP95Ms": 2145,
       "latencyP99Ms": 3231,
       "trend": {
         "state": "stable",
@@ -60,10 +60,10 @@
     "bybit": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 380,
-      "samples": 81,
+      "latencyMs": 244,
+      "samples": 82,
       "availabilityPct": 100,
-      "latencyP50Ms": 350,
+      "latencyP50Ms": 344,
       "latencyP95Ms": 642,
       "latencyP99Ms": 762,
       "trend": {
@@ -75,8 +75,8 @@
     "api": {
       "reachable": true,
       "status": 404,
-      "latencyMs": 289,
-      "samples": 81,
+      "latencyMs": 346,
+      "samples": 82,
       "availabilityPct": 100,
       "latencyP50Ms": 344,
       "latencyP95Ms": 633,
@@ -90,10 +90,10 @@
     "identity": {
       "reachable": true,
       "status": 404,
-      "latencyMs": 462,
-      "samples": 81,
+      "latencyMs": 277,
+      "samples": 82,
       "availabilityPct": 100,
-      "latencyP50Ms": 409,
+      "latencyP50Ms": 408,
       "latencyP95Ms": 720,
       "latencyP99Ms": 816,
       "trend": {
@@ -104,5 +104,5 @@
     }
   },
   "openIncidents": 0,
-  "historyWindowSamples": 81
+  "historyWindowSamples": 82
 }
