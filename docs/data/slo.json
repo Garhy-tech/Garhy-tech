@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T15:19:56.615Z",
+  "generatedAt": "2026-09-25T16:19:54.988Z",
   "basis": "synthetic-public-reachability",
   "systems": {
     "corporate": {
@@ -8,60 +8,60 @@
       "observedAvailabilityPct": 100,
       "errorBudgetRemainingPct": 100,
       "burnRate": 0,
-      "latencyP95Ms": 840,
+      "latencyP95Ms": 740,
       "latencyP95TargetMs": 1200,
       "state": "within-objective",
-      "sampleBasis": 79
+      "sampleBasis": 80
     },
     "hana": {
       "objectivePct": 99.9,
       "observedAvailabilityPct": 100,
       "errorBudgetRemainingPct": 100,
       "burnRate": 0,
-      "latencyP95Ms": 434,
+      "latencyP95Ms": 338,
       "latencyP95TargetMs": 1500,
       "state": "within-objective",
-      "sampleBasis": 79
+      "sampleBasis": 80
     },
     "store": {
       "objectivePct": 99.9,
       "observedAvailabilityPct": 100,
       "errorBudgetRemainingPct": 100,
       "burnRate": 0,
-      "latencyP95Ms": 2145,
+      "latencyP95Ms": 2091,
       "latencyP95TargetMs": 1500,
       "state": "at-risk",
-      "sampleBasis": 79
+      "sampleBasis": 80
     },
     "bybit": {
       "objectivePct": 99.9,
       "observedAvailabilityPct": 100,
       "errorBudgetRemainingPct": 100,
       "burnRate": 0,
-      "latencyP95Ms": 656,
+      "latencyP95Ms": 642,
       "latencyP95TargetMs": 1500,
       "state": "within-objective",
-      "sampleBasis": 79
+      "sampleBasis": 80
     },
     "api": {
       "objectivePct": 99.9,
       "observedAvailabilityPct": 100,
       "errorBudgetRemainingPct": 100,
       "burnRate": 0,
-      "latencyP95Ms": 648,
+      "latencyP95Ms": 633,
       "latencyP95TargetMs": 1200,
       "state": "within-objective",
-      "sampleBasis": 79
+      "sampleBasis": 80
     },
     "identity": {
       "objectivePct": 99.9,
       "observedAvailabilityPct": 100,
       "errorBudgetRemainingPct": 100,
       "burnRate": 0,
-      "latencyP95Ms": 729,
+      "latencyP95Ms": 720,
       "latencyP95TargetMs": 1200,
       "state": "within-objective",
-      "sampleBasis": 79
+      "sampleBasis": 80
     }
   }
 }
