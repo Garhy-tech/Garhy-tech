@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-25T11:18:29.954Z",
+  "generatedAt": "2026-09-25T12:23:51.034Z",
   "source": "GitHub Actions public observer",
   "mode": "advisory-only",
   "signals": [
@@ -15,10 +15,10 @@
     "corporate": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 209,
-      "samples": 75,
+      "latencyMs": 171,
+      "samples": 76,
       "availabilityPct": 100,
-      "latencyP50Ms": 237,
+      "latencyP50Ms": 230,
       "latencyP95Ms": 840,
       "latencyP99Ms": 1485,
       "trend": {
@@ -30,8 +30,8 @@
     "hana": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 128,
-      "samples": 75,
+      "latencyMs": 138,
+      "samples": 76,
       "availabilityPct": 100,
       "latencyP50Ms": 138,
       "latencyP95Ms": 434,
@@ -45,8 +45,8 @@
     "store": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 1072,
-      "samples": 75,
+      "latencyMs": 1553,
+      "samples": 76,
       "availabilityPct": 100,
       "latencyP50Ms": 1512,
       "latencyP95Ms": 2145,
@@ -60,10 +60,10 @@
     "bybit": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 410,
-      "samples": 75,
+      "latencyMs": 200,
+      "samples": 76,
       "availabilityPct": 100,
-      "latencyP50Ms": 350,
+      "latencyP50Ms": 344,
       "latencyP95Ms": 656,
       "latencyP99Ms": 762,
       "trend": {
@@ -75,10 +75,10 @@
     "api": {
       "reachable": true,
       "status": 404,
-      "latencyMs": 352,
-      "samples": 75,
+      "latencyMs": 283,
+      "samples": 76,
       "availabilityPct": 100,
-      "latencyP50Ms": 347,
+      "latencyP50Ms": 344,
       "latencyP95Ms": 633,
       "latencyP99Ms": 692,
       "trend": {
@@ -90,8 +90,8 @@
     "identity": {
       "reachable": true,
       "status": 404,
-      "latencyMs": 476,
-      "samples": 75,
+      "latencyMs": 314,
+      "samples": 76,
       "availabilityPct": 100,
       "latencyP50Ms": 409,
       "latencyP95Ms": 729,
@@ -104,5 +104,5 @@
     }
   },
   "openIncidents": 0,
-  "historyWindowSamples": 75
+  "historyWindowSamples": 76
 }
