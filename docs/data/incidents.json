@@ -1,5 +1,16 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-09-26T18:20:30.308Z",
-  "incidents": []
+  "updatedAt": "2026-09-26T19:15:41.502Z",
+  "incidents": [
+    {
+      "id": "bybit-1790450143456",
+      "systemId": "bybit",
+      "systemName": "GT.BYBIT",
+      "status": "open",
+      "severity": "public-edge-degraded",
+      "openedAt": "2026-09-26T19:15:41.502Z",
+      "summary": "GT.BYBIT public reachability changed from reachable to unavailable.",
+      "source": "public-observer"
+    }
+  ]
 }

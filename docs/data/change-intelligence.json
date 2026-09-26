@@ -1,39 +1,31 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-09-26T18:20:30.308Z",
+  "generatedAt": "2026-09-26T19:15:41.502Z",
   "repository": "gar7y-tech/garhy-gpt-oss-cloud",
   "status": "ready",
   "latestChange": {
-    "sha": "2b4d917783be",
-    "message": "Release GT CRYPTO APIs on crypto.garhy.tech (#27)",
-    "authoredAt": "2026-09-26T17:57:51Z",
+    "sha": "3b81bd87e588",
+    "message": "Merge pull request #28 from gar7y-tech/chore/gt-crypto-retire-old-domain",
+    "authoredAt": "2026-09-26T19:11:08Z",
     "verified": true,
-    "additions": 157,
-    "deletions": 836,
-    "riskScore": 50,
-    "riskLevel": "high",
+    "additions": 6,
+    "deletions": 6,
+    "riskScore": 20,
+    "riskLevel": "low",
     "blastRadius": "review-required",
     "sensitivePaths": [
-      "SECURITY.md",
-      "android-app/app/src/main/java/tech/garhy/gtbybit/MainActivity.java",
-      "assets/gt-bybit/gt-profile.jpg",
-      "assets/gt-bybit/icon-180.png",
-      "assets/gt-bybit/icon-192.png",
-      "assets/gt-bybit/icon-512.webp",
-      "bybit-dashboard.css",
-      "bybit-dashboard.js",
-      "bybit.html",
-      "gt-bybit-app/api/profile.js",
-      "gt-bybit-app/assets/gt-bybit/brand/gt-logo.png",
-      "gt-bybit-app/assets/gt-bybit/brand/gt-watermark.webp"
+      "gt-bybit-app/lib/bybit-control.js",
+      "gt-bybit-app/test/helpers.mjs",
+      "gt-bybit-app/test/security.test.js",
+      "gt-bybit-app/test/service-worker.test.js"
     ],
     "factors": {
-      "filesChanged": 54,
-      "churn": 993,
-      "sensitivePaths": 46,
+      "filesChanged": 4,
+      "churn": 12,
+      "sensitivePaths": 4,
       "migrations": 0,
       "workflows": 0,
-      "tests": 5
+      "tests": 3
     }
   }
 }
