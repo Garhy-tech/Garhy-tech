@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-09-26T14:17:29.319Z",
+  "updatedAt": "2026-09-26T15:17:35.899Z",
   "maxSamples": 168,
   "samples": [
     {
@@ -3570,6 +3570,41 @@
           "reachable": true,
           "status": 200,
           "latencyMs": 1282
+        }
+      }
+    },
+    {
+      "timestamp": "2026-09-26T15:17:35.899Z",
+      "systems": {
+        "corporate": {
+          "reachable": true,
+          "status": 200,
+          "latencyMs": 187
+        },
+        "hana": {
+          "reachable": true,
+          "status": 200,
+          "latencyMs": 128
+        },
+        "bybit": {
+          "reachable": true,
+          "status": 200,
+          "latencyMs": 524
+        },
+        "api": {
+          "reachable": true,
+          "status": 404,
+          "latencyMs": 702
+        },
+        "identity": {
+          "reachable": true,
+          "status": 404,
+          "latencyMs": 812
+        },
+        "store": {
+          "reachable": true,
+          "status": 200,
+          "latencyMs": 1299
         }
       }
     }
