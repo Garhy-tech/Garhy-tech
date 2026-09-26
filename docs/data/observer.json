@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "generatedAt": "2026-09-26T16:18:23.500Z",
+  "generatedAt": "2026-09-26T17:16:24.487Z",
   "source": "GitHub Actions public observer",
   "mode": "advisory-only",
   "signals": [
@@ -15,10 +15,10 @@
     "corporate": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 308,
-      "samples": 104,
+      "latencyMs": 379,
+      "samples": 105,
       "availabilityPct": 100,
-      "latencyP50Ms": 238,
+      "latencyP50Ms": 239,
       "latencyP95Ms": 709,
       "latencyP99Ms": 1141,
       "trend": {
@@ -30,8 +30,8 @@
     "hana": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 156,
-      "samples": 104,
+      "latencyMs": 182,
+      "samples": 105,
       "availabilityPct": 100,
       "latencyP50Ms": 138,
       "latencyP95Ms": 293,
@@ -45,8 +45,8 @@
     "store": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 1602,
-      "samples": 104,
+      "latencyMs": 864,
+      "samples": 105,
       "availabilityPct": 100,
       "latencyP50Ms": 1504,
       "latencyP95Ms": 2091,
@@ -60,10 +60,10 @@
     "bybit": {
       "reachable": true,
       "status": 200,
-      "latencyMs": 303,
-      "samples": 104,
+      "latencyMs": 347,
+      "samples": 105,
       "availabilityPct": 100,
-      "latencyP50Ms": 340,
+      "latencyP50Ms": 344,
       "latencyP95Ms": 634,
       "latencyP99Ms": 715,
       "trend": {
@@ -75,8 +75,8 @@
     "api": {
       "reachable": true,
       "status": 404,
-      "latencyMs": 401,
-      "samples": 104,
+      "latencyMs": 376,
+      "samples": 105,
       "availabilityPct": 100,
       "latencyP50Ms": 341,
       "latencyP95Ms": 633,
@@ -90,8 +90,8 @@
     "identity": {
       "reachable": true,
       "status": 404,
-      "latencyMs": 306,
-      "samples": 104,
+      "latencyMs": 259,
+      "samples": 105,
       "availabilityPct": 100,
       "latencyP50Ms": 392,
       "latencyP95Ms": 720,
@@ -104,5 +104,5 @@
     }
   },
   "openIncidents": 0,
-  "historyWindowSamples": 104
+  "historyWindowSamples": 105
 }
